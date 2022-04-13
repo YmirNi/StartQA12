@@ -39,9 +39,13 @@ public class Registration {
         inputPassword.clear();
         inputPassword.sendKeys("Nnoa12345$");
 
+        //WebElement elLink = wd.findElement(By.xpath("//*[text()=' Registration']"));
+        //elLink.click();
+
         List <WebElement> list1 = wd.findElements(By.tagName("button"));
         WebElement buttonRegistration = list1.get(1);
         buttonRegistration.click();
+
     }
 
     @Test
@@ -61,6 +65,9 @@ public class Registration {
         inputPassword.click();
         inputPassword.clear();
         inputPassword.sendKeys("Nnoa12345$");
+
+        //WebElement elLink = wd.findElement(By.xpath("//*[text()=' Registration']"));
+        //elLink.click();
 
         List <WebElement> list1 = wd.findElements(By.tagName("button"));
         WebElement buttonRegistration = list1.get(1);

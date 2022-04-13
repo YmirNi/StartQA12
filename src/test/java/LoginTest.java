@@ -45,6 +45,8 @@ public class LoginTest {
         //element.click(); //click login button
         //element.clear();
         //element.sendKeys("Hello"); //fill LoginRegistration form
+
+        //WebElement elLink = wd.findElement(By.xpath("//*[text()=' Registration']"));
     //}
 
     @Test
